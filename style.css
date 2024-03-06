@@ -20,6 +20,11 @@ html,body{
     width: 100%;
 
 }
+#main{
+    background-color: #000;
+    position: relative; 
+    z-index: 10;
+}
 
 
 #page1{
@@ -48,7 +53,7 @@ html,body{
     text-transform: uppercase;
     color: black;
     font-size: 1vw;
-    font-weight: 500;
+    font-weight: 200;
     position: relative;
     z-index: 9;
 }
@@ -299,7 +304,7 @@ html,body{
     background-color: #EFEAE3;
 }
 .elem{
-    height: 120px;
+    height: 9vw;
     width: 100%;
     position: relative;
     border-bottom: 1px solid #554e4e;
@@ -334,7 +339,6 @@ html,body{
     position: fixed;
     height: 30vw;
     width: 25vw;
-    background-color: red;
     border-radius: 15px;
     z-index: 99;
     top: 27%;
@@ -343,6 +347,30 @@ html,body{
     background-size: cover;
     background-position: center;
 }
-#elem-container{
+
+
+
+
+#page4{
+    min-height: 80vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+#footer{
+    position: fixed;
+    height: 105vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw 3vw;
+}
+#footer h1{
+    font-size: 11vw;
 
 }
+
