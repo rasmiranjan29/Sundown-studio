@@ -1,11 +1,11 @@
 @font-face {
     font-family: abc;
-    src: url(./NeueHaasDisplayMediu.ttf);
+    src: url(./font/NeueHaasDisplayMediu.ttf);
 }
 @font-face {
     font-family: abc;
     font-weight: 200;
-    src: url(./NeueHaasDisplayRoman.ttf);
+    src: url(./font/NeueHaasDisplayRoman.ttf);
 }
 
 *{
